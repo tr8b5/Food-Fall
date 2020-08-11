@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04739F800C4364C5711C2097 /* Pods_Food_Fall_Food_FallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9758B01CBFBDEB001D7E8C /* Pods_Food_Fall_Food_FallUITests.framework */; };
+		0B592B1823D747DB008E21ED /* atlas.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 0B592B1723D747DB008E21ED /* atlas.atlasc */; };
+		0B7A353B23D0BC4B0042E50A /* TutorialSprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A353923D0BC4B0042E50A /* TutorialSprites.atlasc */; };
+		0B8DDEA3243CCB46003120B6 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC7FF5523D7E57700A0E3BE /* GoogleUtilities.framework */; };
+		0B8DDEA6243CCB48003120B6 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC7FF5623D7E57700A0E3BE /* GoogleMobileAds.framework */; };
+		0B8DDEA8243CCB4A003120B6 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC7FF5423D7E57700A0E3BE /* GoogleAppMeasurement.framework */; };
+		0B8DDEAA243CCB4D003120B6 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC7FF5323D7E57700A0E3BE /* nanopb.framework */; };
+		0B8DDEAC243CCB4F003120B6 /* Pods_Food_Fall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0544B8024333D4BDE232DD /* Pods_Food_Fall.framework */; };
+		0B8DDEAE243CCB54003120B6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC7FF5023D7BC2000A0E3BE /* StoreKit.framework */; };
+		0B8F524623D7822000D7D8A9 /* FluxFire Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8F524523D7822000D7D8A9 /* FluxFire Logo.png */; };
+		0BC7FF5723D7E57700A0E3BE /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = 0BC7FF5223D7E57700A0E3BE /* Licenses */; };
+		3612646B1E3FA6FA00EA0237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3612646A1E3FA6FA00EA0237 /* main.m */; };
+		3612646E1E3FA6FA00EA0237 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3612646D1E3FA6FA00EA0237 /* AppDelegate.m */; };
+		361264751E3FA6FA00EA0237 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 361264741E3FA6FA00EA0237 /* GameScene.m */; };
+		361264781E3FA6FA00EA0237 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361264771E3FA6FA00EA0237 /* GameViewController.m */; };
+		3612647B1E3FA6FA00EA0237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361264791E3FA6FA00EA0237 /* Main.storyboard */; };
+		3612647D1E3FA6FA00EA0237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3612647C1E3FA6FA00EA0237 /* Assets.xcassets */; };
+		361264801E3FA6FA00EA0237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3612647E1E3FA6FA00EA0237 /* LaunchScreen.storyboard */; };
+		3612648B1E3FA6FA00EA0237 /* Food_FallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3612648A1E3FA6FA00EA0237 /* Food_FallTests.m */; };
+		361264961E3FA6FA00EA0237 /* Food_FallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361264951E3FA6FA00EA0237 /* Food_FallUITests.m */; };
+		361264B71E3FC88800EA0237 /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 361264B61E3FC88800EA0237 /* Logic.m */; };
+		3642FC3F1E60E84E00B7FDCF /* Bars.m in Sources */ = {isa = PBXBuildFile; fileRef = 3642FC3E1E60E84700B7FDCF /* Bars.m */; };
+		36B7A71F1E42214800A623A5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36B7A71E1E42214800A623A5 /* GameScene.sks */; };
+		36B7A7211E42216C00A623A5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36B7A7201E42216C00A623A5 /* Actions.sks */; };
+		36B7A7281E442D7800A623A5 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B7A7271E442D7500A623A5 /* Food.m */; };
+		83188C1521ED469F00C8E691 /* Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83188C1421ED469F00C8E691 /* Ching.wav */; };
+		83188C1721ED494200C8E691 /* Buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83188C1621ED494200C8E691 /* Buzzer.wav */; };
+		83188C1921ED4A8600C8E691 /* dink.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83188C1821ED4A8600C8E691 /* dink.wav */; };
+		83EA5F2521F7D86E004D3B78 /* GAMEBOY.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83EA5F2421F7D86D004D3B78 /* GAMEBOY.mp3 */; };
+		B9FA21FB86E5E337574859A9 /* Pods_Food_FallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ADCC3F637D2ED80B55C1C0 /* Pods_Food_FallTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361264871E3FA6FA00EA0237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3612645E1E3FA6FA00EA0237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361264651E3FA6FA00EA0237;
+			remoteInfo = "Food Fall";
+		};
+		361264921E3FA6FA00EA0237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3612645E1E3FA6FA00EA0237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361264651E3FA6FA00EA0237;
+			remoteInfo = "Food Fall";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B592B1723D747DB008E21ED /* atlas.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = atlas.atlasc; sourceTree = "<group>"; };
+		0B7A353923D0BC4B0042E50A /* TutorialSprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TutorialSprites.atlasc; sourceTree = "<group>"; };
+		0B8F524523D7822000D7D8A9 /* FluxFire Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FluxFire Logo.png"; sourceTree = "<group>"; };
+		0BC7FF5023D7BC2000A0E3BE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0BC7FF5223D7E57700A0E3BE /* Licenses */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Licenses; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/Licenses"; sourceTree = "<group>"; };
+		0BC7FF5323D7E57700A0E3BE /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/nanopb.framework"; sourceTree = "<group>"; };
+		0BC7FF5423D7E57700A0E3BE /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
+		0BC7FF5523D7E57700A0E3BE /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		0BC7FF5623D7E57700A0E3BE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		1150549A7E6AD3E2BB6F5D89 /* Pods-Food FallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food FallTests.release.xcconfig"; path = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests.release.xcconfig"; sourceTree = "<group>"; };
+		361264661E3FA6FA00EA0237 /* Food Fall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Fall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3612646A1E3FA6FA00EA0237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3612646C1E3FA6FA00EA0237 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3612646D1E3FA6FA00EA0237 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		361264731E3FA6FA00EA0237 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		361264741E3FA6FA00EA0237 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		361264761E3FA6FA00EA0237 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		361264771E3FA6FA00EA0237 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		3612647A1E3FA6FA00EA0237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3612647C1E3FA6FA00EA0237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3612647F1E3FA6FA00EA0237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361264811E3FA6FA00EA0237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361264861E3FA6FA00EA0237 /* Food FallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food FallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3612648A1E3FA6FA00EA0237 /* Food_FallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_FallTests.m; sourceTree = "<group>"; };
+		3612648C1E3FA6FA00EA0237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361264911E3FA6FA00EA0237 /* Food FallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food FallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361264951E3FA6FA00EA0237 /* Food_FallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_FallUITests.m; sourceTree = "<group>"; };
+		361264971E3FA6FA00EA0237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361264B51E3FC88800EA0237 /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logic.h; path = ../Logic.h; sourceTree = "<group>"; };
+		361264B61E3FC88800EA0237 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Logic.m; path = ../Logic.m; sourceTree = "<group>"; };
+		3642FC3B1E5FE42B00B7FDCF /* DIMIS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIMIS___.TTF"; sourceTree = "<group>"; };
+		3642FC3C1E5FE42B00B7FDCF /* DIMITRI_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIMITRI_.TTF; sourceTree = "<group>"; };
+		3642FC3D1E60E84700B7FDCF /* Bars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bars.h; path = ../Bars.h; sourceTree = "<group>"; };
+		3642FC3E1E60E84700B7FDCF /* Bars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bars.m; path = ../Bars.m; sourceTree = "<group>"; };
+		36B7A71E1E42214800A623A5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		36B7A7201E42216C00A623A5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		36B7A7261E442D7500A623A5 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		36B7A7271E442D7500A623A5 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		3A9758B01CBFBDEB001D7E8C /* Pods_Food_Fall_Food_FallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Fall_Food_FallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405287E8E00CBE07E9177AD8 /* Pods-Food FallTests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food FallTests.distribution.xcconfig"; path = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests.distribution.xcconfig"; sourceTree = "<group>"; };
+		486638671BD2E5BB7C109263 /* Pods-Food Fall.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Fall.distribution.xcconfig"; path = "Target Support Files/Pods-Food Fall/Pods-Food Fall.distribution.xcconfig"; sourceTree = "<group>"; };
+		4E8205FE0EF9E83B70676A65 /* Pods-Food Fall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Fall.debug.xcconfig"; path = "Target Support Files/Pods-Food Fall/Pods-Food Fall.debug.xcconfig"; sourceTree = "<group>"; };
+		61DCCD99001CCFCF2F096F8A /* Pods-Food Fall-Food FallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Fall-Food FallUITests.debug.xcconfig"; path = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0544B8024333D4BDE232DD /* Pods_Food_Fall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Fall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83188C1421ED469F00C8E691 /* Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ching.wav; sourceTree = "<group>"; };
+		83188C1621ED494200C8E691 /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
+		83188C1821ED4A8600C8E691 /* dink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dink.wav; sourceTree = "<group>"; };
+		83EA5F2421F7D86D004D3B78 /* GAMEBOY.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GAMEBOY.mp3; sourceTree = "<group>"; };
+		A5D1E0DDF370756F97783BBF /* Pods-Food Fall-Food FallUITests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Fall-Food FallUITests.distribution.xcconfig"; path = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests.distribution.xcconfig"; sourceTree = "<group>"; };
+		B8ADCC3F637D2ED80B55C1C0 /* Pods_Food_FallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_FallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB32375019163501C51437E4 /* Pods-Food FallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food FallTests.debug.xcconfig"; path = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0AAA58A6F7C5473A47DFA7 /* Pods-Food Fall-Food FallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Fall-Food FallUITests.release.xcconfig"; path = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F12900E749BED72E981D70CE /* Pods-Food Fall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Fall.release.xcconfig"; path = "Target Support Files/Pods-Food Fall/Pods-Food Fall.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361264631E3FA6FA00EA0237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8DDEA6243CCB48003120B6 /* GoogleMobileAds.framework in Frameworks */,
+				0B8DDEAC243CCB4F003120B6 /* Pods_Food_Fall.framework in Frameworks */,
+				0B8DDEA3243CCB46003120B6 /* GoogleUtilities.framework in Frameworks */,
+				0B8DDEAE243CCB54003120B6 /* StoreKit.framework in Frameworks */,
+				0B8DDEA8243CCB4A003120B6 /* GoogleAppMeasurement.framework in Frameworks */,
+				0B8DDEAA243CCB4D003120B6 /* nanopb.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361264831E3FA6FA00EA0237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FA21FB86E5E337574859A9 /* Pods_Food_FallTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612648E1E3FA6FA00EA0237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04739F800C4364C5711C2097 /* Pods_Food_Fall_Food_FallUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204E9835ED58343E6D7D032B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E8205FE0EF9E83B70676A65 /* Pods-Food Fall.debug.xcconfig */,
+				F12900E749BED72E981D70CE /* Pods-Food Fall.release.xcconfig */,
+				486638671BD2E5BB7C109263 /* Pods-Food Fall.distribution.xcconfig */,
+				61DCCD99001CCFCF2F096F8A /* Pods-Food Fall-Food FallUITests.debug.xcconfig */,
+				EA0AAA58A6F7C5473A47DFA7 /* Pods-Food Fall-Food FallUITests.release.xcconfig */,
+				A5D1E0DDF370756F97783BBF /* Pods-Food Fall-Food FallUITests.distribution.xcconfig */,
+				BB32375019163501C51437E4 /* Pods-Food FallTests.debug.xcconfig */,
+				1150549A7E6AD3E2BB6F5D89 /* Pods-Food FallTests.release.xcconfig */,
+				405287E8E00CBE07E9177AD8 /* Pods-Food FallTests.distribution.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3612645D1E3FA6F900EA0237 = {
+			isa = PBXGroup;
+			children = (
+				361264681E3FA6FA00EA0237 /* Food Fall */,
+				361264891E3FA6FA00EA0237 /* Food FallTests */,
+				361264941E3FA6FA00EA0237 /* Food FallUITests */,
+				361264671E3FA6FA00EA0237 /* Products */,
+				361264811E3FA6FA00EA0237 /* Info.plist */,
+				204E9835ED58343E6D7D032B /* Pods */,
+				D0934DA5BCD8642B25681E59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361264671E3FA6FA00EA0237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361264661E3FA6FA00EA0237 /* Food Fall.app */,
+				361264861E3FA6FA00EA0237 /* Food FallTests.xctest */,
+				361264911E3FA6FA00EA0237 /* Food FallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361264681E3FA6FA00EA0237 /* Food Fall */ = {
+			isa = PBXGroup;
+			children = (
+				3612646C1E3FA6FA00EA0237 /* AppDelegate.h */,
+				3612646D1E3FA6FA00EA0237 /* AppDelegate.m */,
+				36B7A7201E42216C00A623A5 /* Actions.sks */,
+				36B7A71E1E42214800A623A5 /* GameScene.sks */,
+				361264731E3FA6FA00EA0237 /* GameScene.h */,
+				361264741E3FA6FA00EA0237 /* GameScene.m */,
+				36B7A7261E442D7500A623A5 /* Food.h */,
+				36B7A7271E442D7500A623A5 /* Food.m */,
+				3642FC3D1E60E84700B7FDCF /* Bars.h */,
+				3642FC3E1E60E84700B7FDCF /* Bars.m */,
+				361264B51E3FC88800EA0237 /* Logic.h */,
+				361264B61E3FC88800EA0237 /* Logic.m */,
+				361264761E3FA6FA00EA0237 /* GameViewController.h */,
+				361264771E3FA6FA00EA0237 /* GameViewController.m */,
+				361264791E3FA6FA00EA0237 /* Main.storyboard */,
+				3612647C1E3FA6FA00EA0237 /* Assets.xcassets */,
+				0B592B1723D747DB008E21ED /* atlas.atlasc */,
+				0B7A353923D0BC4B0042E50A /* TutorialSprites.atlasc */,
+				3612647E1E3FA6FA00EA0237 /* LaunchScreen.storyboard */,
+				361264691E3FA6FA00EA0237 /* Supporting Files */,
+			);
+			path = "Food Fall";
+			sourceTree = "<group>";
+		};
+		361264691E3FA6FA00EA0237 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B8F524523D7822000D7D8A9 /* FluxFire Logo.png */,
+				83EA5F2421F7D86D004D3B78 /* GAMEBOY.mp3 */,
+				83188C1821ED4A8600C8E691 /* dink.wav */,
+				83188C1621ED494200C8E691 /* Buzzer.wav */,
+				83188C1421ED469F00C8E691 /* Ching.wav */,
+				3642FC3B1E5FE42B00B7FDCF /* DIMIS___.TTF */,
+				3642FC3C1E5FE42B00B7FDCF /* DIMITRI_.TTF */,
+				3612646A1E3FA6FA00EA0237 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		361264891E3FA6FA00EA0237 /* Food FallTests */ = {
+			isa = PBXGroup;
+			children = (
+				3612648A1E3FA6FA00EA0237 /* Food_FallTests.m */,
+				3612648C1E3FA6FA00EA0237 /* Info.plist */,
+			);
+			path = "Food FallTests";
+			sourceTree = "<group>";
+		};
+		361264941E3FA6FA00EA0237 /* Food FallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361264951E3FA6FA00EA0237 /* Food_FallUITests.m */,
+				361264971E3FA6FA00EA0237 /* Info.plist */,
+			);
+			path = "Food FallUITests";
+			sourceTree = "<group>";
+		};
+		D0934DA5BCD8642B25681E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC7FF5423D7E57700A0E3BE /* GoogleAppMeasurement.framework */,
+				0BC7FF5623D7E57700A0E3BE /* GoogleMobileAds.framework */,
+				0BC7FF5523D7E57700A0E3BE /* GoogleUtilities.framework */,
+				0BC7FF5223D7E57700A0E3BE /* Licenses */,
+				0BC7FF5323D7E57700A0E3BE /* nanopb.framework */,
+				0BC7FF5023D7BC2000A0E3BE /* StoreKit.framework */,
+				6C0544B8024333D4BDE232DD /* Pods_Food_Fall.framework */,
+				3A9758B01CBFBDEB001D7E8C /* Pods_Food_Fall_Food_FallUITests.framework */,
+				B8ADCC3F637D2ED80B55C1C0 /* Pods_Food_FallTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361264651E3FA6FA00EA0237 /* Food Fall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3612649A1E3FA6FA00EA0237 /* Build configuration list for PBXNativeTarget "Food Fall" */;
+			buildPhases = (
+				D38EFFEA5C51101368FBE087 /* [CP] Check Pods Manifest.lock */,
+				361264621E3FA6FA00EA0237 /* Sources */,
+				361264631E3FA6FA00EA0237 /* Frameworks */,
+				361264641E3FA6FA00EA0237 /* Resources */,
+				3AEDC73560ABE475D98AF0A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Fall";
+			productName = "Food Fall";
+			productReference = 361264661E3FA6FA00EA0237 /* Food Fall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361264851E3FA6FA00EA0237 /* Food FallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3612649D1E3FA6FA00EA0237 /* Build configuration list for PBXNativeTarget "Food FallTests" */;
+			buildPhases = (
+				760D51865AD99C0DAC9A38BE /* [CP] Check Pods Manifest.lock */,
+				361264821E3FA6FA00EA0237 /* Sources */,
+				361264831E3FA6FA00EA0237 /* Frameworks */,
+				361264841E3FA6FA00EA0237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361264881E3FA6FA00EA0237 /* PBXTargetDependency */,
+			);
+			name = "Food FallTests";
+			productName = "Food FallTests";
+			productReference = 361264861E3FA6FA00EA0237 /* Food FallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361264901E3FA6FA00EA0237 /* Food FallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361264A01E3FA6FA00EA0237 /* Build configuration list for PBXNativeTarget "Food FallUITests" */;
+			buildPhases = (
+				7D8112345805EB0AB9CAB5A1 /* [CP] Check Pods Manifest.lock */,
+				3612648D1E3FA6FA00EA0237 /* Sources */,
+				3612648E1E3FA6FA00EA0237 /* Frameworks */,
+				3612648F1E3FA6FA00EA0237 /* Resources */,
+				86823FFF3910A39FDF9CCDE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361264931E3FA6FA00EA0237 /* PBXTargetDependency */,
+			);
+			name = "Food FallUITests";
+			productName = "Food FallUITests";
+			productReference = 361264911E3FA6FA00EA0237 /* Food FallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3612645E1E3FA6FA00EA0237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Fluxfire;
+				TargetAttributes = {
+					361264651E3FA6FA00EA0237 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5BGU7NUS4B;
+						ProvisioningStyle = Manual;
+					};
+					361264851E3FA6FA00EA0237 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5BGU7NUS4B;
+						ProvisioningStyle = Manual;
+						TestTargetID = 361264651E3FA6FA00EA0237;
+					};
+					361264901E3FA6FA00EA0237 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5BGU7NUS4B;
+						ProvisioningStyle = Manual;
+						TestTargetID = 361264651E3FA6FA00EA0237;
+					};
+				};
+			};
+			buildConfigurationList = 361264611E3FA6FA00EA0237 /* Build configuration list for PBXProject "Food Fall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 3612645D1E3FA6F900EA0237;
+			productRefGroup = 361264671E3FA6FA00EA0237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361264651E3FA6FA00EA0237 /* Food Fall */,
+				361264851E3FA6FA00EA0237 /* Food FallTests */,
+				361264901E3FA6FA00EA0237 /* Food FallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361264641E3FA6FA00EA0237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83188C1721ED494200C8E691 /* Buzzer.wav in Resources */,
+				0BC7FF5723D7E57700A0E3BE /* Licenses in Resources */,
+				0B592B1823D747DB008E21ED /* atlas.atlasc in Resources */,
+				3612647B1E3FA6FA00EA0237 /* Main.storyboard in Resources */,
+				83EA5F2521F7D86E004D3B78 /* GAMEBOY.mp3 in Resources */,
+				36B7A7211E42216C00A623A5 /* Actions.sks in Resources */,
+				0B7A353B23D0BC4B0042E50A /* TutorialSprites.atlasc in Resources */,
+				36B7A71F1E42214800A623A5 /* GameScene.sks in Resources */,
+				83188C1521ED469F00C8E691 /* Ching.wav in Resources */,
+				83188C1921ED4A8600C8E691 /* dink.wav in Resources */,
+				3612647D1E3FA6FA00EA0237 /* Assets.xcassets in Resources */,
+				0B8F524623D7822000D7D8A9 /* FluxFire Logo.png in Resources */,
+				361264801E3FA6FA00EA0237 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361264841E3FA6FA00EA0237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612648F1E3FA6FA00EA0237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEDC73560ABE475D98AF0A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Fall/Pods-Food Fall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Fall/Pods-Food Fall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760D51865AD99C0DAC9A38BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food FallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8112345805EB0AB9CAB5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Fall-Food FallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86823FFF3910A39FDF9CCDE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38EFFEA5C51101368FBE087 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Fall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361264621E3FA6FA00EA0237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361264B71E3FC88800EA0237 /* Logic.m in Sources */,
+				36B7A7281E442D7800A623A5 /* Food.m in Sources */,
+				361264781E3FA6FA00EA0237 /* GameViewController.m in Sources */,
+				3612646E1E3FA6FA00EA0237 /* AppDelegate.m in Sources */,
+				3642FC3F1E60E84E00B7FDCF /* Bars.m in Sources */,
+				361264751E3FA6FA00EA0237 /* GameScene.m in Sources */,
+				3612646B1E3FA6FA00EA0237 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361264821E3FA6FA00EA0237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3612648B1E3FA6FA00EA0237 /* Food_FallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612648D1E3FA6FA00EA0237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361264961E3FA6FA00EA0237 /* Food_FallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361264881E3FA6FA00EA0237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361264651E3FA6FA00EA0237 /* Food Fall */;
+			targetProxy = 361264871E3FA6FA00EA0237 /* PBXContainerItemProxy */;
+		};
+		361264931E3FA6FA00EA0237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361264651E3FA6FA00EA0237 /* Food Fall */;
+			targetProxy = 361264921E3FA6FA00EA0237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		361264791E3FA6FA00EA0237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3612647A1E3FA6FA00EA0237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3612647E1E3FA6FA00EA0237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3612647F1E3FA6FA00EA0237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC360E523D7ED3800751DF8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		0BC360E623D7ED3800751DF8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486638671BD2E5BB7C109263 /* Pods-Food Fall.distribution.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				ENABLE_BITCODE = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = FoodFall.FoodFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Food Fall";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		0BC360E723D7ED3800751DF8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405287E8E00CBE07E9177AD8 /* Pods-Food FallTests.distribution.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				INFOPLIST_FILE = "Food FallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fluxfire.Food-FallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Fall.app/Food Fall";
+			};
+			name = Distribution;
+		};
+		0BC360E823D7ED3800751DF8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D1E0DDF370756F97783BBF /* Pods-Food Fall-Food FallUITests.distribution.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				INFOPLIST_FILE = "Food FallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fluxfire.Food-FallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Food Fall";
+			};
+			name = Distribution;
+		};
+		361264981E3FA6FA00EA0237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		361264991E3FA6FA00EA0237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3612649B1E3FA6FA00EA0237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8205FE0EF9E83B70676A65 /* Pods-Food Fall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				ENABLE_BITCODE = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = FoodFall.FoodFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Food Fall";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3612649C1E3FA6FA00EA0237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12900E749BED72E981D70CE /* Pods-Food Fall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: William Miller III (5BGU7NUS4B)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				ENABLE_BITCODE = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = FoodFall.FoodFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Food Fall";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3612649E1E3FA6FA00EA0237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB32375019163501C51437E4 /* Pods-Food FallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				INFOPLIST_FILE = "Food FallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fluxfire.Food-FallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Fall.app/Food Fall";
+			};
+			name = Debug;
+		};
+		3612649F1E3FA6FA00EA0237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1150549A7E6AD3E2BB6F5D89 /* Pods-Food FallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				INFOPLIST_FILE = "Food FallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fluxfire.Food-FallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Fall.app/Food Fall";
+			};
+			name = Release;
+		};
+		361264A11E3FA6FA00EA0237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DCCD99001CCFCF2F096F8A /* Pods-Food Fall-Food FallUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				INFOPLIST_FILE = "Food FallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fluxfire.Food-FallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Food Fall";
+			};
+			name = Debug;
+		};
+		361264A21E3FA6FA00EA0237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0AAA58A6F7C5473A47DFA7 /* Pods-Food Fall-Food FallUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5BGU7NUS4B;
+				INFOPLIST_FILE = "Food FallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fluxfire.Food-FallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Food Fall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361264611E3FA6FA00EA0237 /* Build configuration list for PBXProject "Food Fall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361264981E3FA6FA00EA0237 /* Debug */,
+				361264991E3FA6FA00EA0237 /* Release */,
+				0BC360E523D7ED3800751DF8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3612649A1E3FA6FA00EA0237 /* Build configuration list for PBXNativeTarget "Food Fall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3612649B1E3FA6FA00EA0237 /* Debug */,
+				3612649C1E3FA6FA00EA0237 /* Release */,
+				0BC360E623D7ED3800751DF8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3612649D1E3FA6FA00EA0237 /* Build configuration list for PBXNativeTarget "Food FallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3612649E1E3FA6FA00EA0237 /* Debug */,
+				3612649F1E3FA6FA00EA0237 /* Release */,
+				0BC360E723D7ED3800751DF8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361264A01E3FA6FA00EA0237 /* Build configuration list for PBXNativeTarget "Food FallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361264A11E3FA6FA00EA0237 /* Debug */,
+				361264A21E3FA6FA00EA0237 /* Release */,
+				0BC360E823D7ED3800751DF8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3612645E1E3FA6FA00EA0237 /* Project object */;
+}

@@ -1,0 +1,1881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99E7769E04CBECF9F65E72BE72B868D6 /* Build configuration list for PBXAggregateTarget "GoogleAppMeasurement" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6728C3639539C3D34FA51D27CEF79F33 /* PBXTargetDependency */,
+				59EDE06461CA4857BD7AD4E98C7788E6 /* PBXTargetDependency */,
+			);
+			name = GoogleAppMeasurement;
+			productName = GoogleAppMeasurement;
+		};
+		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A97DD4FCD5FF34C18BF3BABAB7FD8B9 /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				3DD12CB325FCFFB1611C672C13A69C65 /* PBXTargetDependency */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			productName = "Google-Mobile-Ads-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04AB58EF56D30A6A09B2784D254FA339 /* GULReachabilityChecker+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C8CAF0F3A7E92C18B5B463B669C08C /* GULReachabilityChecker+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D6DC89D073A5E9C0D0F6C3D1A22E8DD /* GULReachabilityMessageCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1D60FC0CB88245518B5E9E00682284 /* GULReachabilityMessageCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1369CE3644E63C40FAD96DFCDE055C2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3477DD5B6202AED934620CCA7D1D6879 /* SystemConfiguration.framework */; };
+		1BCA1F9662AC3DC814F821E04DF8DED6 /* GULLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A14A546D031493DC10047C914D74CD /* GULLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		25B3AE5E6FF95078676D8394A31FE314 /* GoogleUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFFE695CB979CBA84DBB0C0586AFD99 /* GoogleUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B23FBD6D143EE77C6F8341AA0AA734 /* GULHeartbeatDateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5978721B0D8EB9AA2E65FA7EA781B /* GULHeartbeatDateStorage.m */; };
+		3124401F897AE5C434D7836389C768FF /* GULReachabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB38952720AC8FA002F236C7A37819 /* GULReachabilityChecker.m */; };
+		32A757FA895B107EB4D0EF5E23DF4BEE /* GULAppDelegateSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2BD7C31AF5377394DAB0B744AFC74D /* GULAppDelegateSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		364D6ACD4A58CC80845CFB8AD41E32BB /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = BCAC5B192376D440DB8CC6F0B5CDF410 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		390F168639F0F3DC7CE9B5073FAFD8C1 /* GULLoggerLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A461567D70A7B064CE0DBEB70C353F /* GULLoggerLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		497154B635A07A8626BCA1D52C3CD2E9 /* GULSecureCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5C73FEEB1F38911680577C8F5F4AFB /* GULSecureCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4BF0B23EF25D050827AA6C1AF54C16F9 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B55259BBB388593D385D5B13C12B4A0 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		5A8A064BDFFD49057F8C1144A990C6E8 /* Pods-Food Fall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3973A8142FDD4B90C956724C3886964D /* Pods-Food Fall-dummy.m */; };
+		5B269F3F2DF3CD477C02F048BF4F82ED /* GULMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCD5AB2C1DA7AD1D17EEA68EC9AD940 /* GULMutableDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5C43305C1349FD1152EF46D4428AAF9C /* GULHeartbeatDateStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B29832A30BDF3180752AE4584AD162 /* GULHeartbeatDateStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66A6F521325B9F8EB1079FFBE6B3D9A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D345AA1CA7BA285C593B4CB9AF8A501 /* Security.framework */; };
+		6CD0FD569C4E664FA77122DA3A85E4A3 /* GoogleUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EA3C3DE0F292D7BE825B7BF3126B92 /* GoogleUtilities-dummy.m */; };
+		6E41D7C686D2636100ED3E2623FA61CC /* Pods-Food FallTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7550871BD575BC293EE7CB81AB0F78 /* Pods-Food FallTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72DEAA9D5C54F5012FDB51CE1423744C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */; };
+		77C3F0F373EC5011F014CE8E296EFDD2 /* GULNetworkLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ABE769711F5C46C6C914F845E41EF6 /* GULNetworkLoggerProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		78246AF25F1109945A74BF7BC52688CD /* GULAppEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 995ACFD14CC725C82D363712AA8FB455 /* GULAppEnvironmentUtil.m */; };
+		7E40AF6723C8A6B1AC1029BF6F11D264 /* GULNetworkURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC7A8016692F46BE42E73D6D9E6A2A0 /* GULNetworkURLSession.m */; };
+		7FC86E511474CF10E2D3B98704847D7D /* GULSceneDelegateSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B89DD7BA66E9072B0A618C8933DAE /* GULSceneDelegateSwizzler.m */; };
+		8D2576E7447BD86C7D277EEEF122BCCD /* GULSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = D596828A6C29921102474CCBC69ACC94 /* GULSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8F09092C5A7F98873273AE00DEB4D834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */; };
+		9B42E287A9610ED645D65CFBCDBD1D37 /* Pods-Food Fall-Food FallUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD968770255DEF91A97DD7B391A510 /* Pods-Food Fall-Food FallUITests-dummy.m */; };
+		9B8C2AB5BB04893EB7D9FFEAD085643F /* GULAppDelegateSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 898C663BEDE16A0DF412EB53B9D070A6 /* GULAppDelegateSwizzler.m */; };
+		A3534506383623CFE4D98626A6D70DE0 /* Pods-Food Fall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4032B7206A8D640CA5C4CDEF0D37DB65 /* Pods-Food Fall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64BB28699BA0025C9855E44114723C1 /* GULAppEnvironmentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC3A3F090F55020F9AD7C73FD66EF9A /* GULAppEnvironmentUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ABC21D67BC99CFFB04D31F30047683D4 /* GULNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D3295DC50022F827BDE0677AAF9B5126 /* GULNetworkConstants.m */; };
+		AC6C42F5BD178DBA88637A52A9F55D01 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A57E974B73A16A1CA1994DA28A333 /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD00B3B9D629B755278F9509B03F360C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */; };
+		ADE696EBDB55E631D7791C4CD81CD664 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F1009672AD21BCE3D3DADEEA5EA04 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		B1085E5827B469EA0EEAB87F35EFD838 /* GULAppDelegateSwizzler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AED2C0ACAC2B60D50013F2770E693F12 /* GULAppDelegateSwizzler_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1417CBD12395440B44C200E6ED3BE7C /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9E3771D5146610B1321BC178EEDAA4 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E0979D27CD887C0F4D9D2BA0B1E0F8 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = C90D7627CF7A64A302ADBE99676205F4 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B69CBE25AA25D2589AF8AB9D9F68113B /* GULNetworkMessageCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C30E02E21261775C9E36EB87DD83E0 /* GULNetworkMessageCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B91C402F30EB37136ECC440F56AACB1D /* GULOriginalIMPConvenienceMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EF31DEEEEF96AE3684DE0F870E0B93 /* GULOriginalIMPConvenienceMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BB5D0529E4717E5E3F64F69379BAAA18 /* GULNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DF76CA49C44EE603669D2AEF013AAB /* GULNetwork.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BED345DF30FAAE017B49D031589AD984 /* GULLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B153013D5233FF66E5654BEFF0200 /* GULLogger.m */; };
+		C46B953A074C3EA24E41A6A48B07ADC5 /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B014A4C4273C4B988CC4F82DFA2CE60B /* nanopb-dummy.m */; };
+		C4A9AF342EE7278D588CDBF242E31B4A /* GULNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC49045D9BDB07B766666696142B29A /* GULNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DEA4A28C3506E999D82524D28B2B6C /* GULReachabilityChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 71340B432563B2ABC0DA3DEA863F751C /* GULReachabilityChecker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C895CCFFEB03CFCFCB939E14934332F2 /* GULLoggerCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0D0294C28D94DF1A2466715B605FA7 /* GULLoggerCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF907F19757557194790D6EFACED280 /* GULNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA3EE8D0557BD0B2F07BC58C85FCEA /* GULNSData+zlib.m */; };
+		D105199E5E1B84281B62DD9533FC725A /* GULMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 76242AEBC4431E364F6D426A132C228A /* GULMutableDictionary.m */; };
+		D55A4FC05B2613BDBD1A596921EE9DBA /* GULSceneDelegateSwizzler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF95DC247B0BE4CCC305FE002B29F28 /* GULSceneDelegateSwizzler_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFFF6E9672800FD453C02CC5F21D47B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */; };
+		E40B830C935098C3C2FFC1B1865A692A /* GULNetworkURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46F95B7227E2D5C1AA0B379626788E /* GULNetworkURLSession.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E593031A24A098B69FF0EDACE57C43AE /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A505946909D7B425B3C81406C070BB /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E95D23C0B0436214E2113D47A48E55CB /* GULNetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9140CCC935990AA4591911D0E28532C9 /* GULNetworkConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F13007496F74A0F702FFAEFEA353D534 /* Pods-Food Fall-Food FallUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7377EF2D051B52F1AE4AD6B005F04AF /* Pods-Food Fall-Food FallUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D45324EB9989734266637A1FBE40EC /* GULApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 95131B05257BD0BC43EEF89D070144BB /* GULApplication.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F7465119EC0C7711E1AC6C91005CF1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */; };
+		F77645DD46A06980D7E04D1989968334 /* GULSecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 672C6E0905697A064FC4D5B33368345D /* GULSecureCoding.m */; };
+		F8B983A4AFA74FF19A9F2E7469313780 /* GULSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = E05DE1E66F5DBE588E4D18DA92E27925 /* GULSwizzler.m */; };
+		F94B70CE2B6346FC1A32506449C77998 /* GULSceneDelegateSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F81C9402F10974F6512F59ADB3E192 /* GULSceneDelegateSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FD32FD2BB4C3E8C5DB1A90E715012464 /* Pods-Food FallTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E986111F31F6057EB6B6A64B7D2F80D /* Pods-Food FallTests-dummy.m */; };
+		FDF2784963E3C85C2D55A13B3012202F /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 96011D7C426451A000DFBCD3DE8A469E /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		FF25879E70F62C917780EAF515DF05F7 /* GULNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A98ECFC73147BD31DD1DAA96DF30F7 /* GULNetwork.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115D1EA239ADF0871DCDA2BE91268347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED2BE3CD9BAEF947BF28DF29220DAFA;
+			remoteInfo = "Pods-Food Fall";
+		};
+		3099BA1D2EFA2BE1359C78FEB70C3E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
+			remoteInfo = nanopb;
+		};
+		399A02813C08B8A615C94D7F9B7B48E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
+			remoteInfo = nanopb;
+		};
+		6257987A3306B80181C529AD0DA46FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		6D8C432A60D98A6E2C4F8D4DB033F428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
+			remoteInfo = GoogleAppMeasurement;
+		};
+		78EEF33ED73B19559F924F3107D28980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
+			remoteInfo = nanopb;
+		};
+		7C8B483888F427D53FC8C28D338F0F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
+			remoteInfo = GoogleAppMeasurement;
+		};
+		A93AD347EF63A1C42337A043AB0077B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		C75826AB7C0AA6FC6B41257288CA0916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+		F7286EAF98E27B1DC18FF76C8EBA8608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
+			remoteInfo = GoogleAppMeasurement;
+		};
+		F807067D912D3093E4DC5326899CAAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+		F98C0279F599918C771C47EA3A7467D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CCD4D9753C3D820C3EE5765DCD0AE3 /* Pods-Food Fall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Fall.debug.xcconfig"; sourceTree = "<group>"; };
+		09ABE769711F5C46C6C914F845E41EF6 /* GULNetworkLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkLoggerProtocol.h; path = GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h; sourceTree = "<group>"; };
+		12566DB820C8CABE3E92E843E63E37AE /* Pods-Food Fall-Food FallUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Food Fall-Food FallUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		141ED30C58AE297CFA6CF0E7D81DBB99 /* GoogleAppMeasurement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.xcconfig; sourceTree = "<group>"; };
+		174DD5BE8D9488FF45A7175A1F02C2D5 /* Pods-Food Fall-Food FallUITests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Fall-Food FallUITests.distribution.xcconfig"; sourceTree = "<group>"; };
+		178835A125368CD8A5675D4DA6FDF024 /* Pods-Food FallTests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food FallTests.distribution.xcconfig"; sourceTree = "<group>"; };
+		1890CA9EDA60741AC9F5FBCDD537F5B8 /* Pods-Food FallTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Food FallTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FC1F0016DE263CF142A4782765B3665 /* Pods-Food Fall-Food FallUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Fall-Food FallUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1FFFE695CB979CBA84DBB0C0586AFD99 /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
+		21BE8429D95D59DD2FEC5CAC6E806B65 /* Pods-Food FallTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food FallTests-Info.plist"; sourceTree = "<group>"; };
+		2DC3A3F090F55020F9AD7C73FD66EF9A /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
+		30A14A546D031493DC10047C914D74CD /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Private/GULLogger.h; sourceTree = "<group>"; };
+		31C8CAF0F3A7E92C18B5B463B669C08C /* GULReachabilityChecker+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULReachabilityChecker+Internal.h"; path = "GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h"; sourceTree = "<group>"; };
+		34209CD36F67E1F2C5E44EAF90F0BEB0 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
+		3477DD5B6202AED934620CCA7D1D6879 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		37A98ECFC73147BD31DD1DAA96DF30F7 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
+		387DBBA41305707F01AD03F58518F3A7 /* Pods-Food FallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food FallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38CFA193ABA782F3F9539483D6495B32 /* GoogleUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleUtilities.modulemap; sourceTree = "<group>"; };
+		3939C4026EFC3FFC0B95A6CD9F5B83AD /* GoogleUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-prefix.pch"; sourceTree = "<group>"; };
+		3973A8142FDD4B90C956724C3886964D /* Pods-Food Fall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Food Fall-dummy.m"; sourceTree = "<group>"; };
+		3A4717A16A49FEE4DC820A3A1AB35143 /* Pods_Food_Fall_Food_FallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Fall_Food_FallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A487573D69A3CC1EBC953AE017812A2 /* Pods-Food FallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food FallTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A7550871BD575BC293EE7CB81AB0F78 /* Pods-Food FallTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Food FallTests-umbrella.h"; sourceTree = "<group>"; };
+		3AF95DC247B0BE4CCC305FE002B29F28 /* GULSceneDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler_Private.h; path = GoogleUtilities/SceneDelegateSwizzler/Internal/GULSceneDelegateSwizzler_Private.h; sourceTree = "<group>"; };
+		3B832CCE787778A889F7B969E105439B /* nanopb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "nanopb-Info.plist"; sourceTree = "<group>"; };
+		3C0D0294C28D94DF1A2466715B605FA7 /* GULLoggerCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerCodes.h; path = GoogleUtilities/Common/GULLoggerCodes.h; sourceTree = "<group>"; };
+		3D32910BBB8923A4E0CCE6D509317951 /* Pods-Food Fall-Food FallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Fall-Food FallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D345AA1CA7BA285C593B4CB9AF8A501 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3D46F95B7227E2D5C1AA0B379626788E /* GULNetworkURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkURLSession.h; path = GoogleUtilities/Network/Private/GULNetworkURLSession.h; sourceTree = "<group>"; };
+		3FE2B43AB632E89F44FBA5CC4B49C9BB /* Pods-Food FallTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food FallTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4032B7206A8D640CA5C4CDEF0D37DB65 /* Pods-Food Fall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Food Fall-umbrella.h"; sourceTree = "<group>"; };
+		43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46AE0B40D18C074956E01C2DA3C9019A /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Frameworks/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		4A4054D3FF4CACFE8AD816DA598AC27B /* Pods-Food Fall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Food Fall.modulemap"; sourceTree = "<group>"; };
+		4A4F1009672AD21BCE3D3DADEEA5EA04 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
+		4BEF3E72701B5F3A6525448B0DEE36EF /* Pods_Food_Fall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Fall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEA3EE8D0557BD0B2F07BC58C85FCEA /* GULNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GULNSData+zlib.m"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.m"; sourceTree = "<group>"; };
+		4D86C231CF94AC23740B2D8F728881D0 /* Pods-Food Fall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Fall-frameworks.sh"; sourceTree = "<group>"; };
+		541C306B29DFE27D64BA28F97D23A183 /* Pods-Food FallTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Food FallTests.modulemap"; sourceTree = "<group>"; };
+		544B153013D5233FF66E5654BEFF0200 /* GULLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULLogger.m; path = GoogleUtilities/Logger/GULLogger.m; sourceTree = "<group>"; };
+		55A505946909D7B425B3C81406C070BB /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		5C9B89DD7BA66E9072B0A618C8933DAE /* GULSceneDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSceneDelegateSwizzler.m; path = GoogleUtilities/SceneDelegateSwizzler/GULSceneDelegateSwizzler.m; sourceTree = "<group>"; };
+		5CC49045D9BDB07B766666696142B29A /* GULNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULNSData+zlib.h"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.h"; sourceTree = "<group>"; };
+		5D1D60FC0CB88245518B5E9E00682284 /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
+		672C6E0905697A064FC4D5B33368345D /* GULSecureCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSecureCoding.m; path = GoogleUtilities/Environment/GULSecureCoding.m; sourceTree = "<group>"; };
+		67EA3C3DE0F292D7BE825B7BF3126B92 /* GoogleUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleUtilities-dummy.m"; sourceTree = "<group>"; };
+		6A5C73FEEB1F38911680577C8F5F4AFB /* GULSecureCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSecureCoding.h; path = GoogleUtilities/Environment/Public/GULSecureCoding.h; sourceTree = "<group>"; };
+		6DCD5AB2C1DA7AD1D17EEA68EC9AD940 /* GULMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULMutableDictionary.h; path = GoogleUtilities/Network/Private/GULMutableDictionary.h; sourceTree = "<group>"; };
+		71340B432563B2ABC0DA3DEA863F751C /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Private/GULReachabilityChecker.h; sourceTree = "<group>"; };
+		751E412D2D7B608918322BA3312A534A /* GoogleUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.xcconfig; sourceTree = "<group>"; };
+		76242AEBC4431E364F6D426A132C228A /* GULMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULMutableDictionary.m; path = GoogleUtilities/Network/GULMutableDictionary.m; sourceTree = "<group>"; };
+		7715093526B43D9639C1AB337111CDE3 /* Pods-Food Fall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Food Fall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B55259BBB388593D385D5B13C12B4A0 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
+		88C30E02E21261775C9E36EB87DD83E0 /* GULNetworkMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkMessageCode.h; path = GoogleUtilities/Network/Private/GULNetworkMessageCode.h; sourceTree = "<group>"; };
+		898C663BEDE16A0DF412EB53B9D070A6 /* GULAppDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppDelegateSwizzler.m; path = GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m; sourceTree = "<group>"; };
+		89EC7261D491D01AF7DEC6F616FCCDCE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		9140CCC935990AA4591911D0E28532C9 /* GULNetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkConstants.h; path = GoogleUtilities/Network/Private/GULNetworkConstants.h; sourceTree = "<group>"; };
+		92EF31DEEEEF96AE3684DE0F870E0B93 /* GULOriginalIMPConvenienceMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULOriginalIMPConvenienceMacros.h; path = GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h; sourceTree = "<group>"; };
+		93A461567D70A7B064CE0DBEB70C353F /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GULLoggerLevel.h; sourceTree = "<group>"; };
+		95131B05257BD0BC43EEF89D070144BB /* GULApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULApplication.h; path = GoogleUtilities/AppDelegateSwizzler/Private/GULApplication.h; sourceTree = "<group>"; };
+		96011D7C426451A000DFBCD3DE8A469E /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
+		995ACFD14CC725C82D363712AA8FB455 /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E986111F31F6057EB6B6A64B7D2F80D /* Pods-Food FallTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Food FallTests-dummy.m"; sourceTree = "<group>"; };
+		A208587780905F0D6D845C2A18D3B06F /* Pods_Food_FallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_FallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29617E185E07E948607308B3D3E44D6 /* GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
+		A524940BD638174799DBCFAF400171DC /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+		A5DF76CA49C44EE603669D2AEF013AAB /* GULNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetwork.h; path = GoogleUtilities/Network/Private/GULNetwork.h; sourceTree = "<group>"; };
+		AE644D78677D70DF1D95BDFC3B514958 /* Pods-Food Fall-Food FallUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Food Fall-Food FallUITests.modulemap"; sourceTree = "<group>"; };
+		AEC1067776CEE99F77BC3853F068ABC0 /* Pods-Food Fall.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Fall.distribution.xcconfig"; sourceTree = "<group>"; };
+		AED2C0ACAC2B60D50013F2770E693F12 /* GULAppDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h; sourceTree = "<group>"; };
+		B014A4C4273C4B988CC4F82DFA2CE60B /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BB38952720AC8FA002F236C7A37819 /* GULReachabilityChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULReachabilityChecker.m; path = GoogleUtilities/Reachability/GULReachabilityChecker.m; sourceTree = "<group>"; };
+		B989EB1F1D1B15424B63C6E0AAC5EA02 /* Pods-Food Fall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Fall.release.xcconfig"; sourceTree = "<group>"; };
+		BCAC5B192376D440DB8CC6F0B5CDF410 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		BDC7A8016692F46BE42E73D6D9E6A2A0 /* GULNetworkURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkURLSession.m; path = GoogleUtilities/Network/GULNetworkURLSession.m; sourceTree = "<group>"; };
+		C5317128B00D8D00E5108AE688A603C4 /* Pods-Food Fall-Food FallUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Fall-Food FallUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5C13D31C6650492EEF68178FCB47270 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
+		C7377EF2D051B52F1AE4AD6B005F04AF /* Pods-Food Fall-Food FallUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Food Fall-Food FallUITests-umbrella.h"; sourceTree = "<group>"; };
+		C7DD968770255DEF91A97DD7B391A510 /* Pods-Food Fall-Food FallUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Food Fall-Food FallUITests-dummy.m"; sourceTree = "<group>"; };
+		C90D7627CF7A64A302ADBE99676205F4 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		CA9E3771D5146610B1321BC178EEDAA4 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
+		CFA5978721B0D8EB9AA2E65FA7EA781B /* GULHeartbeatDateStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorage.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorage.m; sourceTree = "<group>"; };
+		D3295DC50022F827BDE0677AAF9B5126 /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
+		D344460816BE137723C78A7F8C39E250 /* Pods-Food Fall-Food FallUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Fall-Food FallUITests-Info.plist"; sourceTree = "<group>"; };
+		D596828A6C29921102474CCBC69ACC94 /* GULSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSwizzler.h; path = GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h; sourceTree = "<group>"; };
+		D779A5FB491ADEF78A53DAA2E19B81FC /* Pods-Food Fall-Food FallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Fall-Food FallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2BD7C31AF5377394DAB0B744AFC74D /* GULAppDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler.h; path = GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h; sourceTree = "<group>"; };
+		DB2F8610129E1C734A12C0D02745E0D0 /* Pods-Food Fall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Fall-acknowledgements.plist"; sourceTree = "<group>"; };
+		E05DE1E66F5DBE588E4D18DA92E27925 /* GULSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSwizzler.m; path = GoogleUtilities/MethodSwizzler/GULSwizzler.m; sourceTree = "<group>"; };
+		F0F81C9402F10974F6512F59ADB3E192 /* GULSceneDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler.h; path = GoogleUtilities/SceneDelegateSwizzler/Private/GULSceneDelegateSwizzler.h; sourceTree = "<group>"; };
+		F9B29832A30BDF3180752AE4584AD162 /* GULHeartbeatDateStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorage.h; path = GoogleUtilities/Environment/Public/GULHeartbeatDateStorage.h; sourceTree = "<group>"; };
+		FDFD997A4AE4E2D46AA68F81BD8E848A /* Google-Mobile-Ads-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.xcconfig"; sourceTree = "<group>"; };
+		FF042EA2F068AE53DD054C2292811711 /* Pods-Food Fall-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Fall-Info.plist"; sourceTree = "<group>"; };
+		FF4A57E974B73A16A1CA1994DA28A333 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260FB5BA595386EFAB3731D235F54CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DEAA9D5C54F5012FDB51CE1423744C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57227F738C9B09135891DCBD156EBF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFF6E9672800FD453C02CC5F21D47B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B79D31B8820ED1248F61C1369C6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7465119EC0C7711E1AC6C91005CF1F0 /* Foundation.framework in Frameworks */,
+				66A6F521325B9F8EB1079FFBE6B3D9A4 /* Security.framework in Frameworks */,
+				1369CE3644E63C40FAD96DFCDE055C2C /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAC603A72E09A98D33DC120DE91D632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F09092C5A7F98873273AE00DEB4D834 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03CE8B4F04C50FFE32DD282AFB3403F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD00B3B9D629B755278F9509B03F360C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D606D6935B2A17CA59AEFF7E234E6FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D606D6935B2A17CA59AEFF7E234E6FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				43CCB64591E5193571220AB99A29E8AD /* Foundation.framework */,
+				3D345AA1CA7BA285C593B4CB9AF8A501 /* Security.framework */,
+				3477DD5B6202AED934620CCA7D1D6879 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		108A09DD0981BBAC450958AF56B5B572 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38CFA193ABA782F3F9539483D6495B32 /* GoogleUtilities.modulemap */,
+				751E412D2D7B608918322BA3312A534A /* GoogleUtilities.xcconfig */,
+				67EA3C3DE0F292D7BE825B7BF3126B92 /* GoogleUtilities-dummy.m */,
+				A29617E185E07E948607308B3D3E44D6 /* GoogleUtilities-Info.plist */,
+				3939C4026EFC3FFC0B95A6CD9F5B83AD /* GoogleUtilities-prefix.pch */,
+				1FFFE695CB979CBA84DBB0C0586AFD99 /* GoogleUtilities-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleUtilities";
+			sourceTree = "<group>";
+		};
+		14ED3372CF96B0DB5E1A16B7C3A0C3C3 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE6A5E827E88C258623A44FBD0914 /* AppDelegateSwizzler */,
+				616316994DB0B62D36F534D79CECC9B4 /* Environment */,
+				6D489DC97A88FB440FFED2F7157EB7C5 /* Logger */,
+				EA4FA9A7D7CB2545080E714A63831792 /* MethodSwizzler */,
+				56383F61334CDAB76C900A48D2B4C568 /* Network */,
+				F089B33E655B01C3F922835C88EF80B7 /* NSData+zlib */,
+				4CD475B4C09C4A305CF7DACB76EA3B1C /* Reachability */,
+				108A09DD0981BBAC450958AF56B5B572 /* Support Files */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		2A53B369A807724B2EE4D2FE477B3CF8 /* GoogleAppMeasurement */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADEBF2FCB3F876F6E9E4084D9147E6 /* Frameworks */,
+				B25793B440D5E7E81285CEC10D9768DE /* Support Files */,
+			);
+			path = GoogleAppMeasurement;
+			sourceTree = "<group>";
+		};
+		3D67FF71F86D79B5266A4DB29F37D8AE /* Pods-Food Fall */ = {
+			isa = PBXGroup;
+			children = (
+				4A4054D3FF4CACFE8AD816DA598AC27B /* Pods-Food Fall.modulemap */,
+				7715093526B43D9639C1AB337111CDE3 /* Pods-Food Fall-acknowledgements.markdown */,
+				DB2F8610129E1C734A12C0D02745E0D0 /* Pods-Food Fall-acknowledgements.plist */,
+				3973A8142FDD4B90C956724C3886964D /* Pods-Food Fall-dummy.m */,
+				4D86C231CF94AC23740B2D8F728881D0 /* Pods-Food Fall-frameworks.sh */,
+				FF042EA2F068AE53DD054C2292811711 /* Pods-Food Fall-Info.plist */,
+				4032B7206A8D640CA5C4CDEF0D37DB65 /* Pods-Food Fall-umbrella.h */,
+				07CCD4D9753C3D820C3EE5765DCD0AE3 /* Pods-Food Fall.debug.xcconfig */,
+				AEC1067776CEE99F77BC3853F068ABC0 /* Pods-Food Fall.distribution.xcconfig */,
+				B989EB1F1D1B15424B63C6E0AAC5EA02 /* Pods-Food Fall.release.xcconfig */,
+			);
+			name = "Pods-Food Fall";
+			path = "Target Support Files/Pods-Food Fall";
+			sourceTree = "<group>";
+		};
+		4CD475B4C09C4A305CF7DACB76EA3B1C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				71340B432563B2ABC0DA3DEA863F751C /* GULReachabilityChecker.h */,
+				B6BB38952720AC8FA002F236C7A37819 /* GULReachabilityChecker.m */,
+				31C8CAF0F3A7E92C18B5B463B669C08C /* GULReachabilityChecker+Internal.h */,
+				5D1D60FC0CB88245518B5E9E00682284 /* GULReachabilityMessageCode.h */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		4F7796C62DB70682C17D9D03B303DF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
+				4BEF3E72701B5F3A6525448B0DEE36EF /* Pods_Food_Fall.framework */,
+				3A4717A16A49FEE4DC820A3A1AB35143 /* Pods_Food_Fall_Food_FallUITests.framework */,
+				A208587780905F0D6D845C2A18D3B06F /* Pods_Food_FallTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56383F61334CDAB76C900A48D2B4C568 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6DCD5AB2C1DA7AD1D17EEA68EC9AD940 /* GULMutableDictionary.h */,
+				76242AEBC4431E364F6D426A132C228A /* GULMutableDictionary.m */,
+				A5DF76CA49C44EE603669D2AEF013AAB /* GULNetwork.h */,
+				37A98ECFC73147BD31DD1DAA96DF30F7 /* GULNetwork.m */,
+				9140CCC935990AA4591911D0E28532C9 /* GULNetworkConstants.h */,
+				D3295DC50022F827BDE0677AAF9B5126 /* GULNetworkConstants.m */,
+				09ABE769711F5C46C6C914F845E41EF6 /* GULNetworkLoggerProtocol.h */,
+				88C30E02E21261775C9E36EB87DD83E0 /* GULNetworkMessageCode.h */,
+				3D46F95B7227E2D5C1AA0B379626788E /* GULNetworkURLSession.h */,
+				BDC7A8016692F46BE42E73D6D9E6A2A0 /* GULNetworkURLSession.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		57CD13809D9BBB092E96341B43679D7D /* Pods-Food Fall-Food FallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE644D78677D70DF1D95BDFC3B514958 /* Pods-Food Fall-Food FallUITests.modulemap */,
+				12566DB820C8CABE3E92E843E63E37AE /* Pods-Food Fall-Food FallUITests-acknowledgements.markdown */,
+				C5317128B00D8D00E5108AE688A603C4 /* Pods-Food Fall-Food FallUITests-acknowledgements.plist */,
+				C7DD968770255DEF91A97DD7B391A510 /* Pods-Food Fall-Food FallUITests-dummy.m */,
+				1FC1F0016DE263CF142A4782765B3665 /* Pods-Food Fall-Food FallUITests-frameworks.sh */,
+				D344460816BE137723C78A7F8C39E250 /* Pods-Food Fall-Food FallUITests-Info.plist */,
+				C7377EF2D051B52F1AE4AD6B005F04AF /* Pods-Food Fall-Food FallUITests-umbrella.h */,
+				D779A5FB491ADEF78A53DAA2E19B81FC /* Pods-Food Fall-Food FallUITests.debug.xcconfig */,
+				174DD5BE8D9488FF45A7175A1F02C2D5 /* Pods-Food Fall-Food FallUITests.distribution.xcconfig */,
+				3D32910BBB8923A4E0CCE6D509317951 /* Pods-Food Fall-Food FallUITests.release.xcconfig */,
+			);
+			name = "Pods-Food Fall-Food FallUITests";
+			path = "Target Support Files/Pods-Food Fall-Food FallUITests";
+			sourceTree = "<group>";
+		};
+		616316994DB0B62D36F534D79CECC9B4 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				2DC3A3F090F55020F9AD7C73FD66EF9A /* GULAppEnvironmentUtil.h */,
+				995ACFD14CC725C82D363712AA8FB455 /* GULAppEnvironmentUtil.m */,
+				F9B29832A30BDF3180752AE4584AD162 /* GULHeartbeatDateStorage.h */,
+				CFA5978721B0D8EB9AA2E65FA7EA781B /* GULHeartbeatDateStorage.m */,
+				6A5C73FEEB1F38911680577C8F5F4AFB /* GULSecureCoding.h */,
+				672C6E0905697A064FC4D5B33368345D /* GULSecureCoding.m */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		6D489DC97A88FB440FFED2F7157EB7C5 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				30A14A546D031493DC10047C914D74CD /* GULLogger.h */,
+				544B153013D5233FF66E5654BEFF0200 /* GULLogger.m */,
+				93A461567D70A7B064CE0DBEB70C353F /* GULLoggerLevel.h */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		83BE6305FC82D37B4CBCAC9AC43E2A56 /* Pods-Food FallTests */ = {
+			isa = PBXGroup;
+			children = (
+				541C306B29DFE27D64BA28F97D23A183 /* Pods-Food FallTests.modulemap */,
+				1890CA9EDA60741AC9F5FBCDD537F5B8 /* Pods-Food FallTests-acknowledgements.markdown */,
+				3FE2B43AB632E89F44FBA5CC4B49C9BB /* Pods-Food FallTests-acknowledgements.plist */,
+				9E986111F31F6057EB6B6A64B7D2F80D /* Pods-Food FallTests-dummy.m */,
+				21BE8429D95D59DD2FEC5CAC6E806B65 /* Pods-Food FallTests-Info.plist */,
+				3A7550871BD575BC293EE7CB81AB0F78 /* Pods-Food FallTests-umbrella.h */,
+				387DBBA41305707F01AD03F58518F3A7 /* Pods-Food FallTests.debug.xcconfig */,
+				178835A125368CD8A5675D4DA6FDF024 /* Pods-Food FallTests.distribution.xcconfig */,
+				3A487573D69A3CC1EBC953AE017812A2 /* Pods-Food FallTests.release.xcconfig */,
+			);
+			name = "Pods-Food FallTests";
+			path = "Target Support Files/Pods-Food FallTests";
+			sourceTree = "<group>";
+		};
+		89949404760AE29A435D58BE480D7125 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5C13D31C6650492EEF68178FCB47270 /* nanopb.modulemap */,
+				A524940BD638174799DBCFAF400171DC /* nanopb.xcconfig */,
+				B014A4C4273C4B988CC4F82DFA2CE60B /* nanopb-dummy.m */,
+				3B832CCE787778A889F7B969E105439B /* nanopb-Info.plist */,
+				34209CD36F67E1F2C5E44EAF90F0BEB0 /* nanopb-prefix.pch */,
+				CA9E3771D5146610B1321BC178EEDAA4 /* nanopb-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/nanopb";
+			sourceTree = "<group>";
+		};
+		95471A824C9C675A497D48E3E0ACEF97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B1FC3F132CB481A5D04ED93CC11B0F /* Google-Mobile-Ads-SDK */,
+				2A53B369A807724B2EE4D2FE477B3CF8 /* GoogleAppMeasurement */,
+				14ED3372CF96B0DB5E1A16B7C3A0C3C3 /* GoogleUtilities */,
+				E5E7A885685A26780066D1255CD6B251 /* nanopb */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A974AF16B67B56981EF5BDDB9755750A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D67FF71F86D79B5266A4DB29F37D8AE /* Pods-Food Fall */,
+				57CD13809D9BBB092E96341B43679D7D /* Pods-Food Fall-Food FallUITests */,
+				83BE6305FC82D37B4CBCAC9AC43E2A56 /* Pods-Food FallTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9ADEBF2FCB3F876F6E9E4084D9147E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46AE0B40D18C074956E01C2DA3C9019A /* GoogleAppMeasurement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA6A9380B25BF2B08AE6062AC97E275 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDFD997A4AE4E2D46AA68F81BD8E848A /* Google-Mobile-Ads-SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		B25793B440D5E7E81285CEC10D9768DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				141ED30C58AE297CFA6CF0E7D81DBB99 /* GoogleAppMeasurement.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAppMeasurement";
+			sourceTree = "<group>";
+		};
+		B86DF76483618C39F9D017B3FDBAFFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89EC7261D491D01AF7DEC6F616FCCDCE /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4DE6A5E827E88C258623A44FBD0914 /* AppDelegateSwizzler */ = {
+			isa = PBXGroup;
+			children = (
+				DB2BD7C31AF5377394DAB0B744AFC74D /* GULAppDelegateSwizzler.h */,
+				898C663BEDE16A0DF412EB53B9D070A6 /* GULAppDelegateSwizzler.m */,
+				AED2C0ACAC2B60D50013F2770E693F12 /* GULAppDelegateSwizzler_Private.h */,
+				95131B05257BD0BC43EEF89D070144BB /* GULApplication.h */,
+				3C0D0294C28D94DF1A2466715B605FA7 /* GULLoggerCodes.h */,
+				F0F81C9402F10974F6512F59ADB3E192 /* GULSceneDelegateSwizzler.h */,
+				5C9B89DD7BA66E9072B0A618C8933DAE /* GULSceneDelegateSwizzler.m */,
+				3AF95DC247B0BE4CCC305FE002B29F28 /* GULSceneDelegateSwizzler_Private.h */,
+			);
+			name = AppDelegateSwizzler;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				95471A824C9C675A497D48E3E0ACEF97 /* Pods */,
+				4F7796C62DB70682C17D9D03B303DF5A /* Products */,
+				A974AF16B67B56981EF5BDDB9755750A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E5E7A885685A26780066D1255CD6B251 /* nanopb */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC5B192376D440DB8CC6F0B5CDF410 /* pb.h */,
+				96011D7C426451A000DFBCD3DE8A469E /* pb_common.c */,
+				FF4A57E974B73A16A1CA1994DA28A333 /* pb_common.h */,
+				7B55259BBB388593D385D5B13C12B4A0 /* pb_decode.c */,
+				55A505946909D7B425B3C81406C070BB /* pb_decode.h */,
+				4A4F1009672AD21BCE3D3DADEEA5EA04 /* pb_encode.c */,
+				C90D7627CF7A64A302ADBE99676205F4 /* pb_encode.h */,
+				F1A9471F21F3061E945E97547FCAB8C8 /* decode */,
+				EB6B8E66AAC78F894520E24BB6B6BA8B /* encode */,
+				89949404760AE29A435D58BE480D7125 /* Support Files */,
+			);
+			path = nanopb;
+			sourceTree = "<group>";
+		};
+		EA4FA9A7D7CB2545080E714A63831792 /* MethodSwizzler */ = {
+			isa = PBXGroup;
+			children = (
+				92EF31DEEEEF96AE3684DE0F870E0B93 /* GULOriginalIMPConvenienceMacros.h */,
+				D596828A6C29921102474CCBC69ACC94 /* GULSwizzler.h */,
+				E05DE1E66F5DBE588E4D18DA92E27925 /* GULSwizzler.m */,
+			);
+			name = MethodSwizzler;
+			sourceTree = "<group>";
+		};
+		EB6B8E66AAC78F894520E24BB6B6BA8B /* encode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = encode;
+			sourceTree = "<group>";
+		};
+		F089B33E655B01C3F922835C88EF80B7 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				5CC49045D9BDB07B766666696142B29A /* GULNSData+zlib.h */,
+				4CEA3EE8D0557BD0B2F07BC58C85FCEA /* GULNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		F0B1FC3F132CB481A5D04ED93CC11B0F /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B86DF76483618C39F9D017B3FDBAFFFA /* Frameworks */,
+				ACA6A9380B25BF2B08AE6062AC97E275 /* Support Files */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		F1A9471F21F3061E945E97547FCAB8C8 /* decode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		418151AC06A74401711B454F1213B3AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E41D7C686D2636100ED3E2623FA61CC /* Pods-Food FallTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F7E6001F3A73BC6A4FE022FF46E3E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3534506383623CFE4D98626A6D70DE0 /* Pods-Food Fall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B4D6BF0A2DC9DEEDE1B73D49AE26C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B3AE5E6FF95078676D8394A31FE314 /* GoogleUtilities-umbrella.h in Headers */,
+				32A757FA895B107EB4D0EF5E23DF4BEE /* GULAppDelegateSwizzler.h in Headers */,
+				B1085E5827B469EA0EEAB87F35EFD838 /* GULAppDelegateSwizzler_Private.h in Headers */,
+				A64BB28699BA0025C9855E44114723C1 /* GULAppEnvironmentUtil.h in Headers */,
+				F5D45324EB9989734266637A1FBE40EC /* GULApplication.h in Headers */,
+				5C43305C1349FD1152EF46D4428AAF9C /* GULHeartbeatDateStorage.h in Headers */,
+				1BCA1F9662AC3DC814F821E04DF8DED6 /* GULLogger.h in Headers */,
+				C895CCFFEB03CFCFCB939E14934332F2 /* GULLoggerCodes.h in Headers */,
+				390F168639F0F3DC7CE9B5073FAFD8C1 /* GULLoggerLevel.h in Headers */,
+				5B269F3F2DF3CD477C02F048BF4F82ED /* GULMutableDictionary.h in Headers */,
+				BB5D0529E4717E5E3F64F69379BAAA18 /* GULNetwork.h in Headers */,
+				E95D23C0B0436214E2113D47A48E55CB /* GULNetworkConstants.h in Headers */,
+				77C3F0F373EC5011F014CE8E296EFDD2 /* GULNetworkLoggerProtocol.h in Headers */,
+				B69CBE25AA25D2589AF8AB9D9F68113B /* GULNetworkMessageCode.h in Headers */,
+				E40B830C935098C3C2FFC1B1865A692A /* GULNetworkURLSession.h in Headers */,
+				C4A9AF342EE7278D588CDBF242E31B4A /* GULNSData+zlib.h in Headers */,
+				B91C402F30EB37136ECC440F56AACB1D /* GULOriginalIMPConvenienceMacros.h in Headers */,
+				04AB58EF56D30A6A09B2784D254FA339 /* GULReachabilityChecker+Internal.h in Headers */,
+				C7DEA4A28C3506E999D82524D28B2B6C /* GULReachabilityChecker.h in Headers */,
+				0D6DC89D073A5E9C0D0F6C3D1A22E8DD /* GULReachabilityMessageCode.h in Headers */,
+				F94B70CE2B6346FC1A32506449C77998 /* GULSceneDelegateSwizzler.h in Headers */,
+				D55A4FC05B2613BDBD1A596921EE9DBA /* GULSceneDelegateSwizzler_Private.h in Headers */,
+				497154B635A07A8626BCA1D52C3CD2E9 /* GULSecureCoding.h in Headers */,
+				8D2576E7447BD86C7D277EEEF122BCCD /* GULSwizzler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DB93C14923FAD152CB37A33B2D4AEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1417CBD12395440B44C200E6ED3BE7C /* nanopb-umbrella.h in Headers */,
+				364D6ACD4A58CC80845CFB8AD41E32BB /* pb.h in Headers */,
+				AC6C42F5BD178DBA88637A52A9F55D01 /* pb_common.h in Headers */,
+				E593031A24A098B69FF0EDACE57C43AE /* pb_decode.h in Headers */,
+				B1E0979D27CD887C0F4D9D2BA0B1E0F8 /* pb_encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BE545AC33EEB0A30A951E9F172464C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13007496F74A0F702FFAEFEA353D534 /* Pods-Food Fall-Food FallUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0385591D968379DA852A9C90E75F3AC5 /* Pods-Food Fall-Food FallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D34B4B6E84050C8C11A571019E7B17 /* Build configuration list for PBXNativeTarget "Pods-Food Fall-Food FallUITests" */;
+			buildPhases = (
+				B1BE545AC33EEB0A30A951E9F172464C /* Headers */,
+				19C28707DC542CD3D847D5B1F9FF2B74 /* Sources */,
+				260FB5BA595386EFAB3731D235F54CF6 /* Frameworks */,
+				9C67522AEDA99D9428205817AB2710A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BECFFD309412A849E9E4BDEA990D3541 /* PBXTargetDependency */,
+				85F1A87EC2A3D14C7F08D1EBD7E5BD10 /* PBXTargetDependency */,
+				0B802856040087B8DA93BA4FB291268C /* PBXTargetDependency */,
+				EF7C615F4133C05EDB1E2964F627648E /* PBXTargetDependency */,
+			);
+			name = "Pods-Food Fall-Food FallUITests";
+			productName = "Pods-Food Fall-Food FallUITests";
+			productReference = 3A4717A16A49FEE4DC820A3A1AB35143 /* Pods_Food_Fall_Food_FallUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE20A5C6516470E899D47DB7F59D2C17 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */;
+			buildPhases = (
+				783B4D6BF0A2DC9DEEDE1B73D49AE26C /* Headers */,
+				0E871C387953E5B1A170157AFF111DDB /* Sources */,
+				7A8B79D31B8820ED1248F61C1369C6F4 /* Frameworks */,
+				1FE68D5382F171E6CE43591DC0AF80F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleUtilities;
+			productName = GoogleUtilities;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A561B89A54785C38F5938C4D9469D917 /* Pods-Food FallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE3E2D51F9470F4644B3522FFBC3B15 /* Build configuration list for PBXNativeTarget "Pods-Food FallTests" */;
+			buildPhases = (
+				418151AC06A74401711B454F1213B3AB /* Headers */,
+				09A217DC5FB0FC707251BBB50D4DA73D /* Sources */,
+				ADAC603A72E09A98D33DC120DE91D632 /* Frameworks */,
+				D0323D2B1285CD01EFB3BB30841328D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D616E62C7409143296357FD23B07BE /* PBXTargetDependency */,
+			);
+			name = "Pods-Food FallTests";
+			productName = "Pods-Food FallTests";
+			productReference = A208587780905F0D6D845C2A18D3B06F /* Pods_Food_FallTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BED2BE3CD9BAEF947BF28DF29220DAFA /* Pods-Food Fall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537A5B9CE2A12A2BC07EB0D774841996 /* Build configuration list for PBXNativeTarget "Pods-Food Fall" */;
+			buildPhases = (
+				58F7E6001F3A73BC6A4FE022FF46E3E6 /* Headers */,
+				14FCA151F7545A494353F02DC38C7EFD /* Sources */,
+				57227F738C9B09135891DCBD156EBF99 /* Frameworks */,
+				4F3BBF741BDA2E13F743D05442F83A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162BB4D7838EF2DDDD5485D94147A970 /* PBXTargetDependency */,
+				8CF0309283CC8E6BF76AD8FEAC454F83 /* PBXTargetDependency */,
+				91846DB78A33C69E30A5617908C9C774 /* PBXTargetDependency */,
+				F13A1015288D33427D0F5341DC05149C /* PBXTargetDependency */,
+			);
+			name = "Pods-Food Fall";
+			productName = "Pods-Food Fall";
+			productReference = 4BEF3E72701B5F3A6525448B0DEE36EF /* Pods_Food_Fall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799524D4E1248624EFFB12F67C77BF6B /* Build configuration list for PBXNativeTarget "nanopb" */;
+			buildPhases = (
+				78DB93C14923FAD152CB37A33B2D4AEC /* Headers */,
+				BC40828C40E31843F7B638876A51D167 /* Sources */,
+				E03CE8B4F04C50FFE32DD282AFB3403F /* Frameworks */,
+				1802FD248AB9DCF1B1AC69754C6FC489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanopb;
+			productName = nanopb;
+			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4F7796C62DB70682C17D9D03B303DF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */,
+				B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */,
+				8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */,
+				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
+				BED2BE3CD9BAEF947BF28DF29220DAFA /* Pods-Food Fall */,
+				0385591D968379DA852A9C90E75F3AC5 /* Pods-Food Fall-Food FallUITests */,
+				A561B89A54785C38F5938C4D9469D917 /* Pods-Food FallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1802FD248AB9DCF1B1AC69754C6FC489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE68D5382F171E6CE43591DC0AF80F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3BBF741BDA2E13F743D05442F83A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C67522AEDA99D9428205817AB2710A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0323D2B1285CD01EFB3BB30841328D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A217DC5FB0FC707251BBB50D4DA73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32FD2BB4C3E8C5DB1A90E715012464 /* Pods-Food FallTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E871C387953E5B1A170157AFF111DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD0FD569C4E664FA77122DA3A85E4A3 /* GoogleUtilities-dummy.m in Sources */,
+				9B8C2AB5BB04893EB7D9FFEAD085643F /* GULAppDelegateSwizzler.m in Sources */,
+				78246AF25F1109945A74BF7BC52688CD /* GULAppEnvironmentUtil.m in Sources */,
+				26B23FBD6D143EE77C6F8341AA0AA734 /* GULHeartbeatDateStorage.m in Sources */,
+				BED345DF30FAAE017B49D031589AD984 /* GULLogger.m in Sources */,
+				D105199E5E1B84281B62DD9533FC725A /* GULMutableDictionary.m in Sources */,
+				FF25879E70F62C917780EAF515DF05F7 /* GULNetwork.m in Sources */,
+				ABC21D67BC99CFFB04D31F30047683D4 /* GULNetworkConstants.m in Sources */,
+				7E40AF6723C8A6B1AC1029BF6F11D264 /* GULNetworkURLSession.m in Sources */,
+				CBF907F19757557194790D6EFACED280 /* GULNSData+zlib.m in Sources */,
+				3124401F897AE5C434D7836389C768FF /* GULReachabilityChecker.m in Sources */,
+				7FC86E511474CF10E2D3B98704847D7D /* GULSceneDelegateSwizzler.m in Sources */,
+				F77645DD46A06980D7E04D1989968334 /* GULSecureCoding.m in Sources */,
+				F8B983A4AFA74FF19A9F2E7469313780 /* GULSwizzler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FCA151F7545A494353F02DC38C7EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A064BDFFD49057F8C1144A990C6E8 /* Pods-Food Fall-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C28707DC542CD3D847D5B1F9FF2B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B42E287A9610ED645D65CFBCDBD1D37 /* Pods-Food Fall-Food FallUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC40828C40E31843F7B638876A51D167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46B953A074C3EA24E41A6A48B07ADC5 /* nanopb-dummy.m in Sources */,
+				FDF2784963E3C85C2D55A13B3012202F /* pb_common.c in Sources */,
+				4BF0B23EF25D050827AA6C1AF54C16F9 /* pb_decode.c in Sources */,
+				ADE696EBDB55E631D7791C4CD81CD664 /* pb_encode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B802856040087B8DA93BA4FB291268C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = F807067D912D3093E4DC5326899CAAD4 /* PBXContainerItemProxy */;
+		};
+		162BB4D7838EF2DDDD5485D94147A970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = A93AD347EF63A1C42337A043AB0077B8 /* PBXContainerItemProxy */;
+		};
+		3DD12CB325FCFFB1611C672C13A69C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAppMeasurement;
+			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
+			targetProxy = 7C8B483888F427D53FC8C28D338F0F87 /* PBXContainerItemProxy */;
+		};
+		59EDE06461CA4857BD7AD4E98C7788E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
+			targetProxy = 3099BA1D2EFA2BE1359C78FEB70C3E4B /* PBXContainerItemProxy */;
+		};
+		6728C3639539C3D34FA51D27CEF79F33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = C75826AB7C0AA6FC6B41257288CA0916 /* PBXContainerItemProxy */;
+		};
+		85F1A87EC2A3D14C7F08D1EBD7E5BD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAppMeasurement;
+			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
+			targetProxy = F7286EAF98E27B1DC18FF76C8EBA8608 /* PBXContainerItemProxy */;
+		};
+		8CF0309283CC8E6BF76AD8FEAC454F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAppMeasurement;
+			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
+			targetProxy = 6D8C432A60D98A6E2C4F8D4DB033F428 /* PBXContainerItemProxy */;
+		};
+		91846DB78A33C69E30A5617908C9C774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = F98C0279F599918C771C47EA3A7467D5 /* PBXContainerItemProxy */;
+		};
+		BECFFD309412A849E9E4BDEA990D3541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 6257987A3306B80181C529AD0DA46FD5 /* PBXContainerItemProxy */;
+		};
+		D1D616E62C7409143296357FD23B07BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Food Fall";
+			target = BED2BE3CD9BAEF947BF28DF29220DAFA /* Pods-Food Fall */;
+			targetProxy = 115D1EA239ADF0871DCDA2BE91268347 /* PBXContainerItemProxy */;
+		};
+		EF7C615F4133C05EDB1E2964F627648E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
+			targetProxy = 78EEF33ED73B19559F924F3107D28980 /* PBXContainerItemProxy */;
+		};
+		F13A1015288D33427D0F5341DC05149C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
+			targetProxy = 399A02813C08B8A615C94D7F9B7B48E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017D8667D52ADCAE484EA5B6300BD24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A487573D69A3CC1EBC953AE017812A2 /* Pods-Food FallTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		112083F66924DF6B2F18F635FD456AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D779A5FB491ADEF78A53DAA2E19B81FC /* Pods-Food Fall-Food FallUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A6BD2CD4C921BD3EF450C0E81B624D3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A524940BD638174799DBCFAF400171DC /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Distribution;
+		};
+		2168F37048DF6E25264B872EF60DCB2B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174DD5BE8D9488FF45A7175A1F02C2D5 /* Pods-Food Fall-Food FallUITests.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Distribution;
+		};
+		2633474C5CB2D90EFECB5AE7BDAEC47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141ED30C58AE297CFA6CF0E7D81DBB99 /* GoogleAppMeasurement.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F55A3566E4E4FC936EAEAB624C33C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3F30FE595324E26CEA42F16F64A23CFA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC1067776CEE99F77BC3853F068ABC0 /* Pods-Food Fall.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Fall/Pods-Food Fall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Fall/Pods-Food Fall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Distribution;
+		};
+		4450D8C8EC206D3713B9ED83D9229D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFD997A4AE4E2D46AA68F81BD8E848A /* Google-Mobile-Ads-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BA9D8ACFFA9CE89DA5AB99C89CDF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A524940BD638174799DBCFAF400171DC /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5414FACAB3477F819730A7D62C171CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751E412D2D7B608918322BA3312A534A /* GoogleUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CAEBC9935F57DF23FEDD247397F661D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CCD4D9753C3D820C3EE5765DCD0AE3 /* Pods-Food Fall.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Fall/Pods-Food Fall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Fall/Pods-Food Fall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FAEEC44A3DF30F264B8298C17B91D62 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751E412D2D7B608918322BA3312A534A /* GoogleUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Distribution;
+		};
+		763D67CE2072D1B7FFBC7D4EBD149201 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141ED30C58AE297CFA6CF0E7D81DBB99 /* GoogleAppMeasurement.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		768A5BB77B847FA04A9B6F6AEE6EAFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFD997A4AE4E2D46AA68F81BD8E848A /* Google-Mobile-Ads-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82845F019218278E302E4E6472CE83AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A524940BD638174799DBCFAF400171DC /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82CFD753D96E4CAB6DEB49AE06FB679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387DBBA41305707F01AD03F58518F3A7 /* Pods-Food FallTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		959DAB4EC1BE4ADE4B22644C3E349521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA7C9CB0FACF27E33EE6E4CBA14925AA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178835A125368CD8A5675D4DA6FDF024 /* Pods-Food FallTests.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food FallTests/Pods-Food FallTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Distribution;
+		};
+		BF9AAA208C6F9C869D31264084DC5703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751E412D2D7B608918322BA3312A534A /* GoogleUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C38733988D66FD9F68556B7263CD99E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D32910BBB8923A4E0CCE6D509317951 /* Pods-Food Fall-Food FallUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Fall-Food FallUITests/Pods-Food Fall-Food FallUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D60C7F2D3A280987B03737D755E19D39 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DISTRIBUTION=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Distribution;
+		};
+		DC06C8F39AB8E141D096B86C6C367196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141ED30C58AE297CFA6CF0E7D81DBB99 /* GoogleAppMeasurement.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2D47249494E6CD77EF4610E7EACB204 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFD997A4AE4E2D46AA68F81BD8E848A /* Google-Mobile-Ads-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		F5E63BAB438F687E3B4366507C3824B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B989EB1F1D1B15424B63C6E0AAC5EA02 /* Pods-Food Fall.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Fall/Pods-Food Fall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Fall/Pods-Food Fall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A97DD4FCD5FF34C18BF3BABAB7FD8B9 /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768A5BB77B847FA04A9B6F6AEE6EAFA5 /* Debug */,
+				E2D47249494E6CD77EF4610E7EACB204 /* Distribution */,
+				4450D8C8EC206D3713B9ED83D9229D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959DAB4EC1BE4ADE4B22644C3E349521 /* Debug */,
+				D60C7F2D3A280987B03737D755E19D39 /* Distribution */,
+				2F55A3566E4E4FC936EAEAB624C33C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537A5B9CE2A12A2BC07EB0D774841996 /* Build configuration list for PBXNativeTarget "Pods-Food Fall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAEBC9935F57DF23FEDD247397F661D /* Debug */,
+				3F30FE595324E26CEA42F16F64A23CFA /* Distribution */,
+				F5E63BAB438F687E3B4366507C3824B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799524D4E1248624EFFB12F67C77BF6B /* Build configuration list for PBXNativeTarget "nanopb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82845F019218278E302E4E6472CE83AF /* Debug */,
+				1A6BD2CD4C921BD3EF450C0E81B624D3 /* Distribution */,
+				52BA9D8ACFFA9CE89DA5AB99C89CDF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E7769E04CBECF9F65E72BE72B868D6 /* Build configuration list for PBXAggregateTarget "GoogleAppMeasurement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2633474C5CB2D90EFECB5AE7BDAEC47D /* Debug */,
+				763D67CE2072D1B7FFBC7D4EBD149201 /* Distribution */,
+				DC06C8F39AB8E141D096B86C6C367196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE3E2D51F9470F4644B3522FFBC3B15 /* Build configuration list for PBXNativeTarget "Pods-Food FallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CFD753D96E4CAB6DEB49AE06FB679A /* Debug */,
+				BA7C9CB0FACF27E33EE6E4CBA14925AA /* Distribution */,
+				017D8667D52ADCAE484EA5B6300BD24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE20A5C6516470E899D47DB7F59D2C17 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9AAA208C6F9C869D31264084DC5703 /* Debug */,
+				6FAEEC44A3DF30F264B8298C17B91D62 /* Distribution */,
+				5414FACAB3477F819730A7D62C171CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D34B4B6E84050C8C11A571019E7B17 /* Build configuration list for PBXNativeTarget "Pods-Food Fall-Food FallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112083F66924DF6B2F18F635FD456AA1 /* Debug */,
+				2168F37048DF6E25264B872EF60DCB2B /* Distribution */,
+				C38733988D66FD9F68556B7263CD99E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

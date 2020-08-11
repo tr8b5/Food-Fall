@@ -1,0 +1,6 @@
+framework module Pods_Food_Fall {
+  umbrella header "Pods-Food Fall-umbrella.h"
+
+  export *
+  module * { export * }
+}
